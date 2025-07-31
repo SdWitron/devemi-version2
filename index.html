@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devemi | Soluciones Digitales </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1f302653c6.js" crossorigin="anonymous"></script>
+    <script defer src="/js/scripts.js"></script>
+
+</head>
+
+<body>
+    <div id="inicio"></div>
+    <header class="header">
+        <nav class="nav">
+            <a href="#inicio" class="logo">
+                <img src="img/logo-devemi-code.svg" alt="Logo Devemi" id="inicio">
+            </a>
+            <button class="nav-toggle" aria-label="Abrir Menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="#nosotros" class="nav-menu-link nav-link">nosotros</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#servicios" class="nav-menu-link nav-link">servicios</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#clientes" class="nav-menu-link nav-link">clientes</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#contacto" class="nav-menu-link nav-link">contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-galaxia">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="img/rocket-gif.gif" alt="Ilustración devemi" />
+            </div>
+            <div class="contenido-hero">
+                <h1>Transformamos <br>
+                    ideas en soluciones <br>
+                    digitales</h1>
+                <p>Potenciamos tu negocio con desarrollo web, <br>
+                     apps y más servicios tecnológicos.</p>
+                <a href="#contacto" class="btn">¡CONTÁCTANOS!</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="quienes-somos" id="nosotros">
+        <div class="contenedor quienes-contenido">
+            <div class="contenido-quienes">
+                <h3>DEVEMI</h3>
+                <h2>¿Quienes Somos?</h2>
+                <p>En Devemi creamos soluciones digitales <br>
+                    personalizadas para empresas que buscan crecer <br>
+                    con tecnología. Desde 2022 desarrollamos sitios web, <br>
+                    aplicaciones y sistemas a medida, <br>
+                    combinando diseño, funcionalidad y experiencia <br>
+                    para lograr resultados confiables, escalables y <br>
+                    alineados a cada negocio.
+                </p>
+            </div>
+                <div class="quienes-imagen">
+                <img src="/img/equipo-diseno-web-apps-servicios-pagina-web.png" alt="equipo de diseño y desarrollo web">
+                </div>
+        </div>
+    </section>
+
+    <section class="servicios" id="servicios">
+        <div class="contenedor">
+            <h2 class="titulo-servicios">Conoce nuestros servicios</h2>
+
+            <div class="grid-servicios">
+                <div class="servicio" onclick="toggleInfo(this)">
+                    <div class="icono-circulo">
+                        <img src="img/diseno-desarrollo-web.png" alt="Diseño y Desarrollo Web" />
+                    </div>
+                    <p><i class="fa-solid fa-circle-arrow-right"></i> Diseño y Desarrollo Web</p>
+                    <div class="info-servicio">
+                        Creamos este sistio web a la medida enfocados a rendimiento y alta
+                    </div>
+                </div>
+
+                <div class="servicio" onclick="toggleInfo(this)">
+                    <div class="icono-circulo">
+                        <img src="img/microservicios-web.png" alt="Microservicios Web" />
+                    </div>
+                    <p><i class="fa-solid fa-circle-arrow-right"></i> Microservicios</p>
+                    <div class="info-servicio">
+                        Creamos este sistio web a la medida enfocados a rendimiento y alta
+                    </div>
+                </div>
+
+                <div class="servicio" onclick="toggleInfo(this)">
+                    <div class="icono-circulo">
+                        <img src="img/diseno-desarrollo-software.png" alt="Diseño y Desarrollo de Software" />
+                    </div>
+                    <p><i class="fa-solid fa-circle-arrow-right"></i>Diseño y Desarrollo de Software</p>
+                    <div class="info-servicio">
+                        Creamos este sistio web a la medida enfocados a rendimiento y alta
+                    </div>
+                </div>
+                <div class="servicio" onclick="toggleInfo(this)">
+                    <div class="icono-circulo">
+                        <img src="img/servidores-servicios.png" alt="Implementacion de Microservicios y Servidores" />
+                    </div>
+                    <p><i class="fa-solid fa-circle-arrow-right"></i>Implementacion de Microservicios y Servidores</p>
+                    <div class="info-servicio">
+                        Creamos este sistio web a la medida enfocados a rendimiento y alta
+                    </div>
+                </div>
+                <div class="servicio" onclick="toggleInfo(this)">
+                    <div class="icono-circulo">
+                        <img src="img/diseno-desarrollo-apps.png" alt="Diseño y Desarrollo de Apps" />
+                    </div>
+                    <p><i class="fa-solid fa-circle-arrow-right"></i> Diseño y Desarrollo de Apps</p>
+                    <div class="info-servicio">
+                        Creamos este sistio web a la medida enfocados a rendimiento y alta
+                    </div>
+                </div>
+                <div class="servicio" onclick="toggleInfo(this)">
+                    <div class="icono-circulo">
+                        <img src="img/gestion-contenidos-web.png" alt="Gestión de Contenido" />
+                    </div>
+                    <p><i class="fa-solid fa-circle-arrow-right"></i>Gestión de Contenido</p>
+                    <div class="info-servicio">
+                        Creamos este sistio web a la medida enfocados a rendimiento y alta
+                    </div>
+                </div>
+            </div>
+            <div class="cta-servicios">
+                <p>Sabemos cómo llevar a tu negocio al siguiente nivel con <br>
+                     soluciones tecnológicas a tu medida.</p>
+                <a href="#contacto" class="btn">¡EMPECEMOS!</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="clientes" id="clientes">
+        <div class="contenedor">
+            <h2 class="clientes-titulo">
+                Hemos trabajado con un gran número <br>
+                de empresas nacionales y extranjeras
+            </h2>
+
+            <div class="logos-clientes">
+                <img src="img/matrimex-cliente-web.png" alt="Matrimex cliente web">
+                <img src="img/brilia-cliente-web.png" alt="Instituto Brilia Cliente web">
+                <img src="img/ofimmsa-cliente-web.png" alt="Ofimmsa cliente web">
+                <img src="img/bely-beto-cliente-web.png" alt="Bely y Beto cliente web">
+                <img src="img/shutpoint-cliente-web.png" alt="Shutpoint cliente web">
+                <img src="img/saico-cliente-web.png" alt="Saico cliente web">
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <div class="contenedor">
+            <h2 class="titulo-contacto">¡Estamos listos para trabajar contigo!</h2>
+            <p class="subtitulo-contacto">
+                Déjanos tu información y nos pondremos en contacto contigo tan pronto <br>
+                 como sea posible. ¡Sabemos que tu proyecto tiene que empezar pronto!
+            </p>
+
+            <form id="contactForm" class="formulario-contacto">
+                <div class="fila">
+                    <input type="text" name="nombre" placeholder="Tu nombre" required>
+                    <input type="email" name="correo" placeholder="Tu correo" required>
+                </div>
+                <div class="fila">
+                    <input type="text" name="empresa" placeholder="Tu empresa">
+                    <input type="tel" name="telefono" placeholder="Tu teléfono">
+                </div>
+                <textarea name="mensaje" rows="5" placeholder="Tu mensaje"></textarea>
+                <div class="alinear-derecha">
+                    <button type="submit" class="btn">ENVIAR</button>
+                </div>
+            </form>
+
+            <p class="alternativa-contacto">
+                o si lo prefieres, envíanos un mensaje por los siguientes medios:
+            </p>
+
+            <div class="redes-contacto">
+                <a href="https://wa.me/5210000000000" target="_blank">
+                    <img src="img/whatsapp.png" alt="WhatsApp" />
+                </a>
+                <a href="https://www.facebook.com/devemi.code" target="_blank">
+                    <img src="img/facebook.png" alt="Facebook" />
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <p>Monterrey, México ©Devemi 2025</p>
+            <a href="#">Aviso de Privacidad</a>
+        </div>
+    </footer>
+
+
+ <script>
+  document.querySelectorAll('a[href^="#"]').forEach(enlace => {
+    enlace.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>   
+
+</body>
+
+</html>
